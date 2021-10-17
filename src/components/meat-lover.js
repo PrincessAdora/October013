@@ -1,18 +1,18 @@
-import React from 'react';
-import meat from './images/plain.jpg';
-import './css/slice.css';
+import React from "react";
+import meat from "./images/meat.jpg";
+import "./css/slice.css";
 
 function MeatLover() {
-  return(
+  return (
     <div className="MeatLover col-4">
       <div className="card">
-        <img src={ meat } class="card-img-top" alt="..."/>
+        <img src={meat} class="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">Plain Slice</h5>
-          <p className="card-text">It's got cheese, it's got tomato sauce, and it's only  a dollar. What more could you ask for?</p>
+          <h5 className="card-title">Meat Slice</h5>
+          <p className="card-text">It has beef and extra cheese for 5 bucks!</p>
         </div>
         <ul className="list-group list-group-flush">
-          <li className="list-group-item">Price: $10.00</li>
+          <li className="list-group-item">Price: $5.00</li>
         </ul>
       </div>
     </div>
